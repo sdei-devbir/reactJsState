@@ -1,6 +1,7 @@
 import App from "../App";
 import About from "../components/about";
 import List from "../components/list";
+import Hooks from "../components/hooks";
 
 const dashboardRoutes = [
   
@@ -13,6 +14,11 @@ const dashboardRoutes = [
     path: "/list",
     name: "List",
     component: List
+  }, 
+  {
+    path: "/hooks",
+    name: "Hooks",
+    component: Hooks
   }, 
   {
     path: "/",
